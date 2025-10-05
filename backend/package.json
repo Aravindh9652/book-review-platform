@@ -2,10 +2,10 @@
   "name": "book-review-backend",
   "version": "1.0.0",
   "description": "Backend API for Book Review Platform",
-  "main": "server.js",
+  "main": "server-memory.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node server-memory.js",
+    "dev": "nodemon server-memory.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["book", "review", "mern", "api"],
