@@ -370,4 +370,3 @@ If you encounter any issues or have questions, please open an issue in the GitHu
 
 ---
 
-**Note**: Remember to change the JWT_SECRET and MongoDB URI in production environments for security.
