@@ -27,9 +27,15 @@
 **Environment Variables to set in Railway:**
 ```
 PORT=5000
-JWT_SECRET=book-review-platform-super-secret-jwt-key-2024
+JWT_SECRET=your-secure-jwt-secret-key
 NODE_ENV=production
+MONGODB_URI=your-mongodb-atlas-connection-string
 ```
+
+**⚠️ Security Note**: 
+- Use a strong, unique JWT_SECRET
+- Use MongoDB Atlas for production
+- Never commit real credentials to Git
 
 ### **Frontend Deployment (Vercel)**
 

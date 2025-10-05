@@ -43,10 +43,12 @@ npm install
 Create a `config.env` file in the backend directory:
 ```env
 PORT=5000
-MONGODB_URI=mongodb+srv://your-username:your-password@cluster0.mongodb.net/book-review-platform?retryWrites=true&w=majority
+MONGODB_URI=your-mongodb-connection-string
 JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
 NODE_ENV=development
 ```
+
+**⚠️ Security Note**: Never commit your actual database credentials to version control. Use environment variables for sensitive information.
 
 ### 4. Frontend Setup
 ```bash
